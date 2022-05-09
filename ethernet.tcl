@@ -70,8 +70,6 @@ $ns attach-agent $n3 $sink1
 
 $ns connect $tcp1 $sink1
 
-
-
 #===================================
 #        Applications Definition        
 #===================================
@@ -86,7 +84,6 @@ set ftp2 [new Application/FTP]
 $ftp2 attach-agent $tcp1
 $ns at 1.0 "$ftp2 start"
 $ns at 2.0 "$ftp2 stop"
-
 
 #===================================
 #        Termination        
