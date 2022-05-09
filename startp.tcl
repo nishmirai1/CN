@@ -18,6 +18,7 @@ $ns namtrace-all $namfile
 #        Nodes Definition        
 #===================================
 #Create 5 nodes
+
 set n0 [$ns node]
 set n1 [$ns node]
 set n2 [$ns node]
